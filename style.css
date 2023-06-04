@@ -1,0 +1,78 @@
+#body{
+    background-color: rgb(73, 203, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+#gameTitle{
+    font-size: 100px;
+    text-align: center;
+    margin: 15px 0px 75px 0px;
+}
+
+#gameContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#cellWrap{
+    width: 50%;
+    margin: auto;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 90%;
+}
+
+.cell{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 200px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+#statusContainer{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+#turnDiv{
+    display: none;
+    grid-template-rows: 50% 50%;
+    height: 600px;
+}
+
+#restartBtn{
+    width: 300px;
+    height: 125px;
+    margin: auto;
+    border-radius: 100px;
+    border-width: 4px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#sideDiv{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 600px;
+    margin-right: 100px;
+}
+
+.sidePicker{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 3px;
+    font-size: 32px;
+    cursor: pointer;
+    margin: 75px;
+}
